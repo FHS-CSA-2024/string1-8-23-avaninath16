@@ -94,7 +94,8 @@ public class String1
      * extraEnd("Hi") â†’ "HiHiHi"
      */
     public String extraEnd(String str) {
-        return unimplemented;
+    String extraEnd = str.substring(str.length() - 2);
+    return extraEnd + extraEnd + extraEnd;
     }
 
     /*
@@ -107,7 +108,8 @@ public class String1
      * firstTwo("ab") â†’ "ab"
      */
     public String firstTwo(String str) {
-        return unimplemented;
+        String firstTwo = str.substring(0,2);
+        return firstTwo;
     }
 
     /*
@@ -117,7 +119,8 @@ public class String1
      * firstHalf("abcdef") â†’ "abc"
      */
     public String firstHalf(String str) {
-        return unimplemented;
+        String firstHalf = str.substring(0, str.length()/2);
+        return firstHalf;
     }
 
     /*
@@ -128,7 +131,8 @@ public class String1
      * withoutEnd("coding") â†’ "odin"
      */
     public String withoutEnd(String str) {
-        return unimplemented;
+        String withoutEnd = str.substring(1, str.length()-1);
+        return withoutEnd;
     }
 
     /*
@@ -140,6 +144,7 @@ public class String1
      * comboString("aaa", "b") â†’ "baaab"
      */
     public String comboString(String a, String b) {
+        
         return unimplemented;
     }
 
